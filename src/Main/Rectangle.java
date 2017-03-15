@@ -27,4 +27,8 @@ public class Rectangle {
         this.length = length;
         this.breadth = breadth;
     }
+
+    public double getArea() {
+        return this.length * this.breadth;
+    }
 }
